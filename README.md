@@ -129,37 +129,25 @@ id
 To strengthen security and prevent exploitation of services like vsftpd 2.3.4, the following defensive measures should be implemented:
 
 - Patch Management & Updates
-
 Immediately upgrade vsftpd to the latest supported version.
-
 Implement an automated patch management process for all network services.
 
 - Service Hardening
-
 Disable or remove unused services (e.g., FTP if not required).
-
 Enforce secure protocols (replace FTP with SFTP/FTPS).
-
 Apply principle of least privilege to service accounts.
 
 - Network Security Controls
-
 Restrict FTP access using firewall rules and IP whitelisting.
-
 Place vulnerable services in isolated VLANs/DMZs.
-
 Deploy an Intrusion Detection/Prevention System (IDS/IPS) to monitor unusual traffic.
 
 - Logging & Monitoring
-
 Enable detailed FTP logging and centralize logs with a SIEM.
-
 Set up alerts for failed logins, suspicious usernames, or backdoor attempts.
 
 - Incident Response & Recovery
-
 Maintain regular, tested backups of critical systems.
-
 Develop a response plan for service compromise (isolation, reimaging, patching).
 
 ---
