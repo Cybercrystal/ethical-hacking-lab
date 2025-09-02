@@ -1,6 +1,18 @@
 # 🛡️ Ethical Hacking Lab: Exploiting vsftpd 2.3.4 on Metasploitable2
 
-This project demonstrates a successful ethical hacking lab where I scanned, identified, and exploited a known vulnerability in an intentionally vulnerable system using Metasploit.
+This project demonstrates the penetration testing lifecycle in a safe, controlled lab environment using Kali Linux against a vulnerable Metasploitable2 machine.
+
+The lab simulates real-world attack scenarios and documents the process of:
+
+- Service enumeration
+
+- Vulnerability discovery
+
+- Exploitation with Metasploit
+
+- Post-exploitation evidence gathering
+
+- Defensive remediation recommendations
 
 ---
 
